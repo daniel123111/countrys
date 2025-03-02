@@ -1,0 +1,123 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url('./assets/images/background countries.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: black;
+}
+
+#app {
+  width: 90%;
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 8px 15px gray;
+  overflow: hidden;
+}
+
+h1 {
+  text-align: center;
+  color: navy;
+  font-size: 2.5em;
+  margin-bottom: 10px;
+  text-shadow: 2px 2px 4px gray;
+}
+
+form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+input {
+  flex-grow: 1;
+  padding: 12px;
+  border: 1px solid lightgray;
+  border-radius: 8px;
+  font-size: 1em;
+}
+
+button {
+  padding: 12px 20px;
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: darkblue;
+}
+
+#statistics {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: lightblue;
+  border: 2px solid navy;
+  border-radius: 8px;
+  text-align: center;
+  font-size: 1.1em;
+  box-shadow: 0 4px 8px gray;
+}
+
+#statistics h2 {
+  margin-bottom: 10px;
+  color: navy;
+  font-size: 1.8em;
+  text-shadow: 1px 1px 2px gray;
+}
+
+#tableContainer {
+  margin-top: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  background-color: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 6px 12px gray;
+}
+
+th, td {
+  border: 1px solid lightgray;
+  padding: 12px;
+  text-align: left;
+}
+
+th {
+  background-color: lightsteelblue;
+  color: navy;
+  font-size: 1.1em;
+}
+
+td {
+  font-size: 1em;
+}
+
+table img {
+  border: 1px solid lightgray;
+  border-radius: 4px;
+  width: 40px;
+  height: auto;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: lightcyan;
+}
+
+tbody tr:hover {
+  background-color: lemonchiffon;
+  cursor: pointer;
+}

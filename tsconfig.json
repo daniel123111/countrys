@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "ES2017", // Use ES2017 or later for full support of async/await and includes
+    "lib": ["ES2017", "DOM"], // Add ES2017 for modern JS features and DOM for browser APIs
+    "module": "commonjs",
+    "strict": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true
+  },
+  "include": ["./*.ts"],
+  "exclude": ["node_modules"]
+}
